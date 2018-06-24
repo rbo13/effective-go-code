@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Bot a simple interface
+// that handles greeting
 type Bot interface {
 	getGreeting() string
 }
